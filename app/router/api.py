@@ -1,7 +1,8 @@
 from fastapi import APIRouter
-from . import answers, movimientos
+from . import answers, movimientos, aerolineas
 
 router = APIRouter()
 
 router.include_router(answers.router, prefix="/respuestas", tags=["Respuestas"])
 router.include_router(movimientos.router, prefix="/movimientos", tags=["Movimientos"])
+router.include_router(aerolineas.router, prefix="/aerolineas", tags=["Aereolineas"])
