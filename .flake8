@@ -1,0 +1,10 @@
+[flake8]
+extend-ignore = E501
+exclude =
+    migrations
+    __pycache__
+    .venv
+    list
+    env
+    .env
+    __init__.py
