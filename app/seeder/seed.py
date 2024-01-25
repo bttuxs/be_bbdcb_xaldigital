@@ -1,20 +1,20 @@
 INITIAL_DATA = {
       'aeropuertos': [
         {
-            'idAeropuerto': '1',
-            'nombreAeropuerto': 'Benito Juarez'
+            'id_aeropuerto': '1',
+            'nombre_aeropuerto': 'Benito Juarez'
         },
         {
-            'idAeropuerto': '2',
-            'nombreAeropuerto': 'Guanajuato'
+            'id_aeropuerto': '2',
+            'nombre_aeropuerto': 'Guanajuato'
         },
         {
-            'idAeropuerto': '3',
-            'nombreAeropuerto': 'La paz'
+            'id_aeropuerto': '3',
+            'nombre_aeropuerto': 'La paz'
         },
         {
-            'idAeropuerto': '4',
-            'nombreAeropuerto': 'Oaxaca'
+            'id_aeropuerto': '4',
+            'nombre_aeropuerto': 'Oaxaca'
         }
       ],
       'movimientos': [
