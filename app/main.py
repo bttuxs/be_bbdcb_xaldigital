@@ -2,6 +2,7 @@ from fastapi.openapi.utils import get_openapi
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from decouple import config
+from .router import api
 
 PROD = config("prod")
 
@@ -36,3 +37,5 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+app.include_router(api.router, prefix="/api")
